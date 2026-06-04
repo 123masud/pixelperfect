@@ -1,0 +1,119 @@
+
+.appointment-bg{
+    /* background-image: url(../../../../../assets/images/page-banner3.jpg);  */
+    position: relative;
+}
+section.welcome-area {
+    width: 93%;
+    margin: auto;
+   
+}
+.single-doctor-box .image {
+   
+    height: 270px;
+}
+.single-doctor-box .image img{
+    height: 100% !important;
+    object-fit: contain;
+}
+.meet-docts {
+    padding-left:2%;
+}
+.aside-left {
+    border: solid 6px #f1e4e9; float: left;
+}
+h3.aside-h3 {
+    background: #f1e4e9;
+    padding: 5px 10px;
+    font-size: 26px;
+    border-bottom: solid 1px #dcc5cd;
+    color: #530c27;
+}
+p.aside-p {
+    border-bottom: solid 1px #dcc5cd;
+    padding: 5px;
+    font-style: italic;
+    color: #171013;
+    background: #fff7fa;
+}
+.doctor-search-item {
+    margin-bottom: 30px;
+    max-width: 94%;
+}
+button.btnserach {
+    background: #0046c0;
+    border: 0px;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 18px;
+    border-radius: 34px;
+    border: solid 2px #fff;
+    box-shadow: 0px 0px 3px #595555;
+    top: 23px; right: 12px;
+    position: relative;
+}
+.doctor-search-item {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 0;
+}
+
+.doctor-search-item  img {
+    display: inline-block;
+    color: #0046c0;
+    font-size: 45px;
+    position: absolute;
+    width: 42px;
+    left: 13px;
+}
+.doctor-search-item label {
+    color: #0046c0;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.doctor-search-item .form-control {
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 0;
+    border: 0;    margin-top: 7px;
+    float: left;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccd9f2;
+}
+.doctor-search-item .doctor-search-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #344c5d;
+    font-size: 18px;
+}
+.doctor-search-item i {
+    position: absolute;
+    right: 0px;
+    top: 13px;
+    color: #530c27;
+}
+aside.aside-section ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #fff6f9;
+    border-radius: 0px;
+    float: left;
+    margin-top: 24px;
+    padding: 10px;
+}
+aside.aside-section ul li {
+    list-style: none;
+    background-color: #ffffff;
+    margin-top: 3px;
+    padding: 3px 10px;
+    width: 100%;
+    padding-top: 5px;
+    width: 1;
+    border: solid 1px #e1d4d9;
+    float: left;
+}

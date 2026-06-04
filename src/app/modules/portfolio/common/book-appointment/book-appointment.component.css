@@ -1,0 +1,87 @@
+.appointment-item {
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background-image: url(../../../../../assets/images/pattern2.png); position: relative;
+}
+.appointment-item h2 {
+    color: #092ea5;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.ptb-100 {
+    padding-bottom: 100px;
+}
+.appointment-item .appointment-form .form-group {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.appointment-item .appointment-form .form-group i {
+    display: inline-block;
+    color: #092ea5;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    font-size: 22px;
+}
+.appointment-item .appointment-form .form-group .form-control {
+    border-radius: 0;
+    border: 0;
+    border-bottom:1px solid #092ea5;
+    font-size: 15px; font-weight: bold;
+    padding-left: 0;
+    padding-bottom: 8px; color: #000;
+    height: 34px;
+    background-color: transparent;
+}
+button.btn.appointment-btn {
+    color: #fff;
+    background-color: #223a66;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 11px 67px;
+}
+
+.pt-100, .ptb-100 {
+    padding-top: 100px;
+}
+
+.textarea{
+    resize: none; min-height: 50px;
+}
+.btn-submit{
+    background: #092ea5;
+    color: #fff;
+    border-radius: 60px;
+    margin: 0px 0px;
+    padding-bottom: 12px !important;
+    padding: 10px 61px;
+    padding-left: 15px; border: 0px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 9px; position: relative;
+    width: 210px;
+}
+.btn-submit:hover{
+    background: #113fda;  
+}
+.btn-submit i{
+    background: #2957e9;
+    float: right;
+    width: 36px;
+    height: 36px;
+    border-radius: 40px;
+    padding: 1px;
+    font-size: 16px;
+    line-height: 32px;
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}

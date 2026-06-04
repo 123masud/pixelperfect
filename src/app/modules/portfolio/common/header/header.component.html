@@ -1,0 +1,41 @@
+<header id="backHome">
+  <header [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
+    <div class="col-md-12 p-0 header-wrp">
+      <div class="all-wrapper">
+        <div class="row">
+          <div class="col-md-3 res-grid3">
+            <div class="logo-area"> <span> <a routerLink="/home"> <img src="assets/images/my-logo.svg" alt="logo"></a> </span> </div>
+          </div>
+          <div class="col-md-7 res-grid7">
+            <div class="header-menu-area">
+              <div class="all-wrapper nav-bg">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                    <div class="hamburger-toggle">
+                      <div class="hamburger"> <span></span> <span></span> <span></span> </div>
+                    </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-content">
+                      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li class="nav-item" (click)="goHome()"> <a class="nav-link" routerLinkActive="" routerLink="" aria-current="page">Home</a> </li>
+                        <li class="nav-item" (click)="goAbout()"> <a class="nav-link"  aria-current="page" routerLinkActive="" routerLink=""> About Me </a> </li>
+                        <li class="nav-item" (click)="goService()"> <a class="nav-link"  routerLink="" routerLinkActive="" aria-current="page">Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" aria-current="page" routerLinkActive="active" routerLink="/skills">Skills</a> </li>
+                        <li class="nav-item"> <a class="nav-link" aria-current="page" routerLinkActive="active" routerLink="/project">projects</a> </li>
+                        <li class="nav-item" (click)="goTesti()"> <a class="nav-link" aria-current="page" routerLink="" routerLinkActive="">Testimonial </a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 res-grid2"> <a routerLink="/contact">
+            <button class="btn-all mt-header">Request A Quote </button>
+            </a> </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  

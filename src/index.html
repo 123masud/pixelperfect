@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pixeperfect</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Are you looking for a front-end designer to convert PSD to HTML + Psd to bootstrap + Sketch to HTML + Xd to HTML + Ai to HTML + Figma to HTML + Zeplin to HTML + PDF to HTML with FREE RESPONSIVE DESIGN FOR ALL DEVICES? If your answer is Yes then you have come to the right place! I am working with 10+ years of experience in this profession." />
+<meta property="og:title" content=Pexelperfect/>
+<meta property="og:description" content="HTML, CSS, Javascript, angular, figma, psd, xd, photoshop, illustartor, wireframe, Figma to HTML, PSD to HTML, Sketch to HTML, wireframe to html, Xd to HTML, Ai to HTML, PDF to HTML, Landing page etc. fiverr, upwork" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/css/flaticon/flaticon.css" />
+
+  
+  
+  <script>
+ document.addEventListener('click',function(e){
+   // Hamburger menu
+   if(e.target.classList.contains('hamburger-toggle')){
+     e.target.children[0].classList.toggle('active');
+   }
+ })   
+ function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+       
+ </script>
+
+
+</head>
+<body>
+  <app-root></app-root>
+
+</body>
+
+</html>

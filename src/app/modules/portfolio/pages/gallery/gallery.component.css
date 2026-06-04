@@ -1,0 +1,333 @@
+.appointment-bg{
+   position: relative;
+}
+.sub-pages{
+  background: #673ab7;
+    background: linear-gradient(to right,#673AB7 0,#027dc4 100%); opacity: 1;
+}
+.sub-pages:before{
+  display: none;
+}
+
+.page-title-content h2:before {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 40px;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+.page-title-content h2:after {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 0;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+.page-title-content h2 {
+  margin-bottom: 0;
+  line-height: 1.3;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  width: 190px;
+  /* display: none; */
+  position: relative;
+  margin: auto;
+}
+.sub-pages {
+  height: 170px;
+}
+  /* The Modal (background) */
+  /* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 0px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: black; z-index: 1000000;
+  
+}
+
+/* Modal Content */
+span.link-all {
+  background: #0a1e5b;
+  width: 100%;
+  float: left;
+  height: 34px;
+  padding-left: 82px;
+  color: #fff;
+  line-height: 34px;
+}
+span.link-all  a{
+  color: #fff;
+  border: solid 1px #9aa8d3;
+  padding: 0px 30px;
+  border-radius: 40px;
+}
+.modal-content {
+  position: relative;
+  background-color: none;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1000px;
+  
+  
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.close {
+  cursor: pointer;
+ 
+  color: #f44336;
+  background: #ddf5fd;
+  width: 30px;
+  text-align: center;
+  font-size: 23px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  border-radius: 40px;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color:#2342a1;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute; background: #2342a1;
+  top: 0;
+}
+
+img {
+
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+  
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+.gr-block {
+margin: auto; margin-bottom: 35px; width: 98%; position: relative;
+}
+
+.gr-block-list {
+  overflow: hidden;
+  margin-bottom: 1.5rem; position: relative;
+}
+.gr-block-list img {
+  width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.gr-block-list:hover img {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.entry-content {
+  padding: 0 0px;
+}
+.service-title {
+  color: #16346d;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-size: 1.125rem; margin-bottom: 10px;
+}
+.section-title {
+  position: relative;
+  margin-bottom:30px;
+  line-height: 26px;
+  padding-bottom: 8px;
+}
+
+
+.modal-img {
+  position: absolute;
+  top: 0px;
+  z-index: 99;
+  font-size: 30px;
+  left: 0px;
+  right: 0px;
+  background: rgb(35 66 161 / 60%);
+  margin: auto;
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* border-radius: 40px; */
+  line-height: 231px; cursor: pointer;
+ visibility: hidden;
+}
+.gr-block-list:hover .modal-img{
+visibility: visible;
+}
+.modal-img i{
+color: #fff;
+}
+.post-date {
+  position: absolute;
+  background-color: #ffffff;
+  color: #757575;
+  font-size: 0.85rem;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem 1rem 0.4rem;
+}
+.btn-all-port{
+  margin: auto !important;
+  display: table;
+  float: inherit !important;
+  margin-top: 32px !important;
+}
+
+.clientsay{
+  font-size: 44px;
+  line-height: 55px;
+  color: #092680;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.client-row {
+ margin-top:50px; width:70%;
+}
+
+span.client-two {
+  float: right;
+  margin-top: 14px;
+}
+span.client-five {
+  float: right;
+  margin-top: 0px;
+  left: 32px;
+  position: relative;
+}
+span.client-three {
+  margin: auto;
+  display: table;
+  /* border: solid; */
+  right: 82px;
+  position: relative;
+  margin-top: 62px;
+}
+
+.client-profile {
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+}
+
+.client-bg{
+  /* background: #5943b9; */
+  background-image: -ms-linear-gradient( 106deg, rgb(254,111,160) 0%, rgb(253,140,154) 100%);
+  background: linear-gradient(to right,#673AB7 0,#027dc4 100%);
+  margin-top: 222px;
+  border-radius: 54px 0px 54px;
+}
+
+
+button.btn-view {
+  position: absolute;
+  bottom: -60px;
+  border: solid 1px #2367bf;
+  background: transparent;
+  border-radius: 40px;
+  padding: 5px 18px;
+  color: #5943b9;
+  font-size: 14px; cursor: pointer;
+}
+
+button.btn-view:hover{
+  color: #2367bf;
+}
